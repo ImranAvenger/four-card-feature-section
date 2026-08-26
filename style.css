@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+   
+}
+
+.section-master {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;    
+    align-content: center;
+    gap: 30px;
+    padding: 2px;
+    position: absolute;
+}
+
+.supervisor {
+    border: 10px solid white;
+    border-color: white;
+    width: 250px;
+    height: 200px;
+    box-shadow:  hsl(180, 62%, 55%);
+    border-radius: 15px;
+    padding: 5px;
+    border-top: 2px solid #45d3d3;
+    justify-content: space-between;
+}
+
+.supervisor p {
+  color: #a3a8b6;
+  font-size: 8px;
+  margin: 10px;
+}
+.supervisor img {
+  display: block;
+  margin-left: auto;
+  width: 40px;
+}
+
+.supervisor h1 {
+  color: #4c4e61;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.team-builder-karm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.team-builder {border: 10px solid white;
+    border-color: white;
+    width: 250px;
+    height: 200px;
+    box-shadow:  hsl(180, 62%, 55%);
+    border-radius: 15px;
+    padding: 5px;
+    border-top: 2px solid hsl(0, 78%, 62%);
+    justify-content: space-between;
+
+
+}
+
+
